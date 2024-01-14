@@ -1,3 +1,17 @@
+/*remove defult border style*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
 /*header*/
 header {
     background-color: antiquewhite;
@@ -7,6 +21,8 @@ header {
 /*main*/
 main {
     background-color: bisque;
+    /*make main to take up most of the page and push footer to bottom*/
+    flex: 1 0 auto;
 
 }
 
