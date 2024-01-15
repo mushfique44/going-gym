@@ -27,8 +27,16 @@ header {
 
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: darkslateblue;
 }
 
 /*main*/
