@@ -1,5 +1,5 @@
 /*import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500;600;700;800&family=Lora:wght@400;500&display=swap');
 
 /*remove defult border style*/
 * {
@@ -13,13 +13,17 @@ body {
     display: flex;
     flex-direction: column;
     color: black;
-    font-family: 'heebo', sans-serif;
+    font-family: 'Lora', sans-serif;
 }
 
 /*header*/
 header {
     background-color: antiquewhite;
 
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
 }
 
 /*main*/
