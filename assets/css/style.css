@@ -24,6 +24,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 4px grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 
 }
 
@@ -56,20 +59,23 @@ h1 {
     margin: 4px 2px;
     border-radius: 16px;
     font-family: 'Lora', sans-serif;
+
 }
 
 
 .active {
     background-color: whitesmoke;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 50%;
     width: 10rem;
-    padding: 1px 45px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
+    display: block;
     margin: 4px 2px;
     border-radius: 16px;
     box-shadow: 1px 1px 4px darkgrey;
+    top: 100%;
 }
 
 nav {
@@ -80,7 +86,21 @@ nav {
     width: 100%;
     box-shadow: 0 2px 4px grey;
     display: none;
+    top: 100%;
 
+}
+
+#nav_toggle:checked~nav {
+    display: block;
+}
+
+#nav_toggle {
+    display: none;
+}
+
+#nav_toggle_name {
+    font-size: 50rem;
+    font-family: 'Heebo', sans-serif;
 }
 
 /*main*/
@@ -88,6 +108,7 @@ main {
     background-color: bisque;
     /*make main to take up most of the page and push footer to bottom*/
     flex: 1 0 auto;
+    margin-top: 47px;
 
 }
 
