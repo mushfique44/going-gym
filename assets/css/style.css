@@ -91,7 +91,7 @@ nav {
 
 /*main*/
 main {
-    background-color: bisque;
+    background-color: lightgrey;
     /*make main to take up most of the page and push footer to bottom*/
     flex: 1 0 auto;
     margin-top: 47px;
