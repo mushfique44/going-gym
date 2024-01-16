@@ -63,7 +63,7 @@ h1 {
 }
 
 
-#active {
+#nav_bar>li#active {
     background-color: grey;
 }
 
