@@ -1,5 +1,5 @@
 /*import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500;600;700;800&family=Lora:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500;600;700;800&family=Lora:wght@400;500&family=Bebas+Neue&display=swap');
 
 /*remove defult border style*/
 * {
@@ -111,17 +111,20 @@ main {
     background-color: rgb(0 0 0 / 69%);
     text-align: justify;
     position: absolute;
-    top: 25%;
-    left: 76%;
-    transform: translate(-115%, -35%);
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
     border-radius: 20px;
     padding: 20px;
 }
 
 #slogan h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Bebas+Neue', sans-serif;
     color: white;
     text-transform: uppercase;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 0 grey;
+
 }
 
 #slogan h1 li {
@@ -183,6 +186,10 @@ i {
     #hero_container {
         height: 500px;
     }
+
+    #slogan h1 {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -192,5 +199,15 @@ i {
 
     #hero_container {
         height: 750px;
+    }
+
+    #slogan h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (min-height: 800px) {
+    #slogan {
+        top: 34%;
     }
 }
