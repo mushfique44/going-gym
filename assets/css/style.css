@@ -98,6 +98,15 @@ main {
 
 }
 
+#hero_container {
+    height: 350px;
+    width: 100%;
+    background-image: url(../images/Gym2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*footer*/
 #socials {
     text-align: center;
@@ -149,10 +158,18 @@ i {
     main {
         margin-top: 62px;
     }
+
+    #hero_container {
+        height: 500px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     #nav_bar a:hover {
         border-bottom: 1px solid black;
+    }
+
+    #hero_container {
+        height: 750px;
     }
 }
