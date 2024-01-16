@@ -63,7 +63,7 @@ h1 {
 }
 
 
-#nav_bar>li#active {
+#active {
     background-color: grey;
 }
 
@@ -88,8 +88,7 @@ nav {
 }
 
 #nav_toggle_name {
-    font-size: 50rem;
-    font-family: 'Heebo', sans-serif;
+    font-size: 100px;
 }
 
 /*main*/
