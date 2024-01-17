@@ -154,8 +154,14 @@ main {
     font-weight: 400;
 }
 
-label{
+label {
     cursor: default;
+}
+
+#form_container {
+    background-image: url(../images/gym4.jpeg);
+    width: 100%;
+
 }
 
 /*footer*/
