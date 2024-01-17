@@ -101,7 +101,73 @@
           <hr />
           <h2>Sign Up</h2>
           <hr />
-          <p>Sign up for a perosonalised workout</p>
+        </div>
+        <div>
+          <form action="">
+            <h3>Sign up for a perosonalised workout</h3>
+            <label for="f_name">First Name:</label>
+            <input
+              type="text"
+              name="first_name"
+              id="f_name"
+              class="text_input"
+              required
+            />
+
+            <label for="l_name">Last Name:</label>
+            <input
+              type="text"
+              name="last_name"
+              id="l_name"
+              class="text_input"
+              required
+            />
+
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              name="email_address"
+              id="email"
+              class="text_input"
+              required
+            />
+
+            <div class="radio_buttons">
+              <h4>Type of workout you are looking for:</h4>
+              <div>
+                <label for="lean">Lean</label>
+                <input
+                  type="radio"
+                  name="workout_type"
+                  id="lean"
+                  value="lean"
+                  required
+                  checked
+                />
+              </div>
+              <div>
+                <label for="bulk">Bulk</label>
+                <input
+                  type="radio"
+                  name="workout_type"
+                  id="bulk"
+                  value="bulk"
+                  required
+                />
+              </div>
+              <div>
+                <label for="loss">Weight Loss</label>
+                <input
+                  type="radio"
+                  name="workout_type"
+                  id="loss"
+                  value="loss"
+                  required
+                />
+              </div>
+            </div>
+            <input type="submit" name="submit" id="submit" value="submit" />
+          </form>
         </div>
       </section>
     </main>
