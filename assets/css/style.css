@@ -154,6 +154,10 @@ main {
     font-weight: 400;
 }
 
+label{
+    cursor: default;
+}
+
 /*footer*/
 #socials {
     text-align: center;
