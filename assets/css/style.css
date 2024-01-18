@@ -72,9 +72,6 @@ h3 {
 
 }
 
-
-
-
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -254,6 +251,64 @@ input[type="email"] {
     /* Darker green color on hover */
 }
 
+/*Workout section*/
+
+#workout {
+    font-family: 'Bebas+Neue', sans-serif;
+
+}
+
+#workout h3 {
+    color: darkslateblue;
+    background-color: black;
+    border: 1px solid black;
+    border-color: black;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+/* Lean workout plan section */
+.lean_plan {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+}
+
+.lean_plan h4 {
+    color: black;
+}
+
+.lean_plan p {
+    color: rgb(40, 40, 40);
+}
+
+.lean_plan ul {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(50, 50, 50);
+}
+
+.lean_plan ul li {
+    margin-bottom: 10px;
+}
+
+.days {
+    display: none;
+}
+
+#days_toggle:checked~.days {
+    display: block;
+}
+
+#days_toggle {
+    display: none;
+}
+
+#days_toggle_name {
+    font-size: 100px;
+}
 
 
 /*footer*/
@@ -372,6 +427,7 @@ i {
         bottom: 1%;
     }
 }
+
 
 @media screen and (max-width: 280px) {
     #slogan h1 {
