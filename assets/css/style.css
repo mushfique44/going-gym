@@ -251,6 +251,18 @@ input[type="email"] {
     /* Darker green color on hover */
 }
 
+.check:hover {
+    background-color: rgba(255, 0, 0, 0.034);
+    border-radius: 5px;
+
+}
+
+input[type="radio"] {
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.034);
+    border-radius: 5px;
+}
+
 /*Workout section*/
 
 #workout {
@@ -265,13 +277,14 @@ input[type="email"] {
     border-color: black;
     padding: 4%;
     border-radius: 10px;
+    box-shadow: 0 0 10px gray;
 }
 
 /* Lean workout plan section */
 .lean_plan {
     background-color: #f4f4f4;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     border-radius: 8px;
 
 }
@@ -296,6 +309,13 @@ input[type="email"] {
 
 .days {
     display: none;
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #days_toggle:checked~.days {
@@ -310,6 +330,103 @@ input[type="email"] {
     font-size: 100px;
 }
 
+.bulk_plan {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 0;
+    border-radius: 8px;
+
+}
+
+.bulk_plan h4 {
+    color: black;
+}
+
+.bulk_plan p {
+    color: rgb(40, 40, 40);
+}
+
+.bulk_plan ul {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(50, 50, 50);
+}
+
+.bulk_plan ul li {
+    margin-bottom: 10px;
+}
+
+.days2 {
+    display: none;
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#days2_toggle:checked~.days2 {
+    display: block;
+}
+
+#days2_toggle {
+    display: none;
+}
+
+#days2_toggle_name {
+    font-size: 100px;
+}
+
+.loss_plan {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 0;
+    border-radius: 8px;
+
+}
+
+.loss_plan h4 {
+    color: black;
+}
+
+.loss_plan p {
+    color: rgb(40, 40, 40);
+}
+
+.loss_plan ul {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(50, 50, 50);
+}
+
+.loss_plan ul li {
+    margin-bottom: 10px;
+}
+
+.days3 {
+    display: none;
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#days3_toggle:checked~.days3 {
+    display: block;
+}
+
+#days3_toggle {
+    display: none;
+}
+
+#days3_toggle_name {
+    font-size: 100px;
+}
 
 /*footer*/
 #socials {
