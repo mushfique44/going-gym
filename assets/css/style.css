@@ -59,6 +59,7 @@ h3 {
     text-transform: uppercase;
 }
 
+/*filler heading for section home set to hide*/
 h2.hidden_heading {
     display: none;
 }
@@ -358,18 +359,23 @@ input[type="radio"] {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/*when radio is checked unhide the days content*/
 #days_toggle:checked~.days {
     display: block;
 }
 
+/*when radio isnt checked hide the days content*/
 #days_toggle {
     display: none;
 }
 
+/*size of the days drop down icon*/
 #days_toggle_name {
     font-size: 100px;
 }
 
+/* bulk workout plan section */
+/*defult style bulk section*/
 .bulk_plan {
     background-color: #f4f4f4;
     padding: 20px;
@@ -378,26 +384,32 @@ input[type="radio"] {
 
 }
 
+/*style of all h4 tags in bulk_plan*/
 .bulk_plan h4 {
     color: black;
 }
 
+/*style of all p tags in bulk_plan*/
 .bulk_plan p {
     color: rgb(40, 40, 40);
 }
 
+/*style of all ul tags in bulk_plan*/
 .bulk_plan ul {
     list-style-type: none;
     padding: 0;
     color: rgb(50, 50, 50);
 }
 
+/*style of all list tags in bulk_plan*/
 .bulk_plan ul li {
     margin-bottom: 10px;
 }
 
+/*style the days section in the bulk section*/
 .days2 {
     display: none;
+    /*set to hide*/
     font-family: 'Arial', sans-serif;
     max-width: 600px;
     margin: 0 auto;
@@ -407,44 +419,53 @@ input[type="radio"] {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/*when radio is checked unhide the days2 content*/
 #days2_toggle:checked~.days2 {
     display: block;
 }
 
+/*when radio isnt checked hide the days2 content*/
 #days2_toggle {
     display: none;
 }
 
+/*size of the days drop down icon*/
 #days2_toggle_name {
     font-size: 100px;
 }
 
+/*loss workout plan section */
+/*style loss section*/
 .loss_plan {
     background-color: #f4f4f4;
     padding: 20px;
     margin-bottom: 0;
     border-radius: 8px;
-
 }
 
+/*style of all h4 tags in loss_plan*/
 .loss_plan h4 {
     color: black;
 }
 
+/*style of all p tags in loss_plan*/
 .loss_plan p {
     color: rgb(40, 40, 40);
 }
 
+/*style of all ul tags in loss_plan*/
 .loss_plan ul {
     list-style-type: none;
     padding: 0;
     color: rgb(50, 50, 50);
 }
 
+/*style of all list in loss_plan*/
 .loss_plan ul li {
     margin-bottom: 10px;
 }
 
+/*style the days section in the loss section*/
 .days3 {
     display: none;
     font-family: 'Arial', sans-serif;
@@ -456,19 +477,24 @@ input[type="radio"] {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/*when radio is checked unhide the days3 content*/
 #days3_toggle:checked~.days3 {
     display: block;
 }
 
+/*when radio isnt checked hide the days3 content*/
 #days3_toggle {
     display: none;
 }
 
+/*size of the days drop down icon*/
 #days3_toggle_name {
     font-size: 100px;
 }
 
 /*footer*/
+
+/*style the footer section*/
 #socials {
     text-align: center;
     padding: 20px 0;
@@ -478,20 +504,23 @@ input[type="radio"] {
 
 }
 
+/*style the icons of the socials*/
 i {
     font-size: 40px;
     padding: 5%;
     color: darkgrey;
 }
 
+/*style the icons when hover over*/
 #socials i:hover {
     color: grey;
 }
 
 
-
+/*for when the width of the screen is larger then 768*/
 @media screen and (min-width: 768px) {
 
+    /*new style of nav area*/
     nav {
         display: block;
         position: relative;
@@ -500,10 +529,11 @@ i {
         padding-right: 1rem;
     }
 
+    /*new style of nav bar*/
     #nav_bar {
         display: flex;
     }
-
+    
     #nav_bar>li {
         padding-left: 1rem;
 
