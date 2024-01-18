@@ -163,7 +163,7 @@ main {
 }
 
 /*set style of the h1 inside the slogan element*/
-#slogan h1 {
+#slogan ul {
     font-family: 'Bebas+Neue', sans-serif;
     color: white;
     text-transform: uppercase;
@@ -173,7 +173,7 @@ main {
 }
 
 /*set style of the lists inside the h1 of the slogan element*/
-#slogan h1 li {
+#slogan ul li {
     list-style-type: none;
 }
 
@@ -531,7 +531,7 @@ i {
         height: 775px;
     }
 
-    #slogan h1 {
+    #slogan ul {
         font-size: 3rem;
     }
 
@@ -560,7 +560,7 @@ i {
         height: 790px;
     }
 
-    #slogan h1 {
+    #slogan ul {
         font-size: 5rem;
     }
 
@@ -584,7 +584,7 @@ i {
 
 
 @media screen and (max-width: 280px) {
-    #slogan h1 {
+    #slogan ul {
         font-size: 1rem;
     }
 }
