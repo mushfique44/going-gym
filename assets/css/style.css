@@ -44,6 +44,14 @@ h1 {
     color: darkslateblue;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
 #nav_bar {
     list-style-type: none;
     margin: 5px;
@@ -180,7 +188,7 @@ form {
 #form_container {
     background-image: url(../images/gym5.jpg);
     width: 100%;
-    height: 300px;
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,19 +196,65 @@ form {
 
 form#signup_form {
     background-color: rgb(0 0 0 / 85%);
-    text-align: justify;
+    text-align: left;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-20%, -0%);
+    top: 2%;
+    right: 5%;
+    left: 5%;
+    bottom: 2%;
+    display: inline-grid;
+    transform: translate(-0%, -0%);
     border-radius: 20px;
     padding: 20px;
     color: white;
+    font-size: 0.75rem;
+    margin-top: 60px;
 }
 
 .radio_buttons {
     display: flex;
+    font-size: medium;
+    justify-content: space-evenly;
 }
+
+.radio_buttons>div {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px
+}
+
+input[type="text"] {
+    font-size: larger;
+}
+
+input[type="email"] {
+    font-size: larger;
+}
+
+#submit {
+    background-color: #449e47;
+    /* Green background color */
+    color: white;
+    /* White text color */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    border: none;
+    /* Remove button border */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+    cursor: pointer;
+    /* Add pointer cursor on hover */
+    font-size: 16px;
+    /* Set font size */
+}
+
+/* Style the button on hover */
+#submit:hover {
+    background-color: #5ace60;
+    /* Darker green color on hover */
+}
+
+
 
 /*footer*/
 #socials {
@@ -265,11 +319,22 @@ i {
     }
 
     #form_container {
-        height: 500px;
+        height: 775px;
     }
 
     #slogan h1 {
         font-size: 3rem;
+    }
+
+    form#signup_form {
+        font-size: 1.5rem;
+        right: 20%;
+        left: 20%;
+    }
+
+    .radio_buttons {
+        font-size: larger;
+
     }
 }
 
@@ -283,7 +348,7 @@ i {
     }
 
     #form_container {
-        height: 750px;
+        height: 790px;
     }
 
     #slogan h1 {
@@ -292,6 +357,19 @@ i {
 
     #workout {
         margin-top: 400px;
+    }
+
+    form#signup_form {
+        font-size: 1.5rem;
+        right: 20%;
+        left: 20%;
+    }
+
+    #submit {
+        position: absolute;
+        left: 20%;
+        right: 20%;
+        bottom: 1%;
     }
 }
 
