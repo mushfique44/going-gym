@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+/*Setting defult styling to the full body*/
 body {
     min-height: 100vh;
     display: flex;
@@ -18,6 +19,8 @@ body {
 }
 
 /*header*/
+
+/*format and style the header*/
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -31,11 +34,13 @@ header {
 
 }
 
+/*style the header title*/
 header a {
     text-decoration: none;
     color: inherit;
 }
 
+/*set default h1 style*/
 h1 {
     font-family: 'Heebo', sans-serif;
     font-weight: 700;
@@ -44,20 +49,24 @@ h1 {
     color: darkslateblue;
 }
 
+/*set default h2 style*/
 h2 {
     text-transform: uppercase;
 }
 
+/*set default h3 style*/
 h3 {
     text-transform: uppercase;
 }
 
+/*set up style for the navigation bar*/
 #nav_bar {
     list-style-type: none;
     margin: 5px;
     padding: 5px;
 }
 
+/*style the lists in the nav bar*/
 #nav_bar>li {
     border: 2px solid black;
     border-radius: 50%;
@@ -72,6 +81,7 @@ h3 {
 
 }
 
+/*set up stlye for the navigation area*/
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -80,47 +90,57 @@ nav {
     width: 100%;
     box-shadow: 0 2px 4px grey;
     display: none;
+    /*hide nav area*/
     top: 100%;
 
 }
 
+/*unhide the nav when button is checked */
 #nav_toggle:checked~nav {
     display: block;
 }
 
+/*hide the nav when button is unchecked*/
 #nav_toggle {
     display: none;
 }
 
+/*set size of the nav icon*/
 #nav_toggle_name {
     font-size: 100px;
 }
 
 /*main*/
+
+/*defult format and style main*/
 main {
     background-color: lightgrey;
-    /*make main to take up most of the page and push footer to bottom*/
     flex: 1 0 auto;
+    /*make main to take up most of the page and push footer to bottom*/
     margin-top: 47px;
 
 }
 
+/*position and size the home section area*/
 #home {
     position: relative;
     width: 100%;
     height: 350px;
 }
 
+/*postition and size the workout section area*/
 #workout {
     position: relative;
     width: 100%;
 }
 
+/*postition and size the signup area*/
 #signup {
     position: relative;
     width: 100%;
 }
 
+/*set a background image to the home section*/
 #hero_container {
     height: 350px;
     width: 100%;
@@ -130,6 +150,7 @@ main {
     background-size: cover;
 }
 
+/*position the slogan element on top of the hero image*/
 #slogan {
     background-color: rgb(0 0 0 / 69%);
     text-align: justify;
@@ -141,6 +162,7 @@ main {
     padding: 20px;
 }
 
+/*set style of the h1 inside the slogan element*/
 #slogan h1 {
     font-family: 'Bebas+Neue', sans-serif;
     color: white;
@@ -150,15 +172,18 @@ main {
 
 }
 
+/*set style of the lists inside the h1 of the slogan element*/
 #slogan h1 li {
     list-style-type: none;
 }
 
+/*set the style of the titles_container*/
 .title_container {
     background-color: white;
 
 }
 
+/*set the styles of h2's inside the titles*/
 .title_container h2 {
     border: 2px solid black;
     background-color: darkslateblue;
@@ -174,14 +199,17 @@ main {
     font-weight: 400;
 }
 
+/*set curser over labels*/
 label {
     cursor: default;
 }
 
+/*set the form to be set in a block*/
 form {
     display: block;
 }
 
+/*set a background image for the form area*/
 #form_container {
     background-image: url(../images/gym5.jpg);
     width: 100%;
@@ -191,6 +219,7 @@ form {
     background-size: cover;
 }
 
+/*set the transparent shaded are behind the form*/
 form#signup_form {
     background-color: rgb(0 0 0 / 85%);
     text-align: left;
@@ -208,68 +237,69 @@ form#signup_form {
     margin-top: 60px;
 }
 
+/*set the radio buttons in form to spread vert and space evenly*/
 .radio_buttons {
     display: flex;
     font-size: medium;
     justify-content: space-evenly;
 }
 
+/*style the radio button area by giving each button a border*/
 .radio_buttons>div {
     border: 2px solid white;
     padding: 5px;
     border-radius: 10px
 }
 
+/*enlarge the text fields of the form*/
 input[type="text"] {
     font-size: larger;
 }
 
+/*enlarge the email fields of the form*/
 input[type="email"] {
     font-size: larger;
 }
 
+/*style the submit button*/
 #submit {
     background-color: #449e47;
-    /* Green background color */
     color: white;
-    /* White text color */
     padding: 10px 20px;
-    /* Padding inside the button */
     border: none;
-    /* Remove button border */
     border-radius: 5px;
-    /* Add border-radius for rounded corners */
     cursor: pointer;
     /* Add pointer cursor on hover */
     font-size: 16px;
-    /* Set font size */
+
 }
 
-/* Style the button on hover */
+/* Style the submit button on hover */
 #submit:hover {
     background-color: #5ace60;
-    /* Darker green color on hover */
+    /* Lighter green color on hover */
 }
 
+/*background color and style on radio button area when hover over*/
 .check:hover {
     background-color: rgba(255, 0, 0, 0.034);
     border-radius: 5px;
-
 }
 
+/**/
 input[type="radio"] {
     font-weight: bold;
-    background-color: rgba(255, 0, 0, 0.034);
-    border-radius: 5px;
 }
 
 /*Workout section*/
 
+/*default style of the workout section*/
 #workout {
     font-family: 'Bebas+Neue', sans-serif;
 
 }
 
+/*style all h3 tags of the section*/
 #workout h3 {
     color: darkslateblue;
     background-color: black;
@@ -281,6 +311,7 @@ input[type="radio"] {
 }
 
 /* Lean workout plan section */
+/*defult style lean section*/
 .lean_plan {
     background-color: #f4f4f4;
     padding: 20px;
@@ -289,26 +320,32 @@ input[type="radio"] {
 
 }
 
+/*style all h4 tags in lean plan section*/
 .lean_plan h4 {
     color: black;
 }
 
+/*style all p tags in lean plan section*/
 .lean_plan p {
     color: rgb(40, 40, 40);
 }
 
+/*style all unorder list tags in lean plan section*/
 .lean_plan ul {
     list-style-type: none;
     padding: 0;
     color: rgb(50, 50, 50);
 }
 
+/*add a small margin at the bottom of each list*/
 .lean_plan ul li {
     margin-bottom: 10px;
 }
 
+/*style the days section in the lean section*/
 .days {
     display: none;
+    /*set to hide*/
     font-family: 'Arial', sans-serif;
     max-width: 600px;
     margin: 0 auto;
