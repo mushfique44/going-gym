@@ -59,6 +59,10 @@ h3 {
     text-transform: uppercase;
 }
 
+h2.hidden_header {
+    display: none;
+}
+
 /*set up style for the navigation bar*/
 #nav_bar {
     list-style-type: none;
