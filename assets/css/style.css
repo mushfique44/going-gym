@@ -395,6 +395,9 @@ input[type="radio"] {
     display: none;
 }
 
+
+
+
 /*size of the days drop down icon*/
 #days_toggle_name {
     font-size: 6.25rem;
@@ -515,6 +518,60 @@ input[type="radio"] {
 #days3_toggle_name {
     font-size: 6.25rem;
 }
+
+
+.body_img {
+    background-image: url(../images/lean_img.jpg);
+    position: absolute;
+    height: 25%;
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 5%;
+    top: 15%;
+    border-radius: 100px;
+}
+
+
+#days_toggle:checked~.body_img {
+    display: none;
+}
+
+.body2_img {
+    background-image: url(../images/bulk_img.jpg);
+    position: absolute;
+    height: 25%;
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 5%;
+    top: 45%;
+    border-radius: 100px;
+}
+
+#days2_toggle:checked~.body2_img {
+    display: none;
+}
+
+.body3_img {
+    background-image: url(../images/fat_img.jpg);
+    position: absolute;
+    height: 25%;
+    width: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 5%;
+    top: 75%;
+    border-radius: 100px;
+}
+
+#days3_toggle:checked~.body3_img {
+    display: none;
+}
+
 
 /*footer*/
 
@@ -644,5 +701,51 @@ i {
 @media screen and (max-width: 280px) {
     #slogan ul {
         font-size: 1rem;
+    }
+
+    .body_img {
+        height: 17%;
+        width: 20%;
+        right: 5%;
+        top: 26%;
+    }
+
+    .body2_img {
+        height: 17%;
+        width: 20%;
+        right: 5%;
+        top: 26%;
+    }
+
+    .body3_img {
+        height: 17%;
+        width: 20%;
+        right: 5%;
+        top: 26%;
+    }
+
+}
+
+
+@media screen and (max-width: 338px) {
+    .body_img {
+        height: 20%;
+        width: 20%;
+        right: 5%;
+        top: 20%;
+    }
+
+    .body2_img {
+        height: 17%;
+        width: 20%;
+        right: 5%;
+        top: 26%;
+    }
+
+    .body3_img {
+        height: 17%;
+        width: 20%;
+        right: 5%;
+        top: 26%;
     }
 }
