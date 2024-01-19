@@ -1,14 +1,14 @@
 # Going Gym
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+The Going Gym website is a landing page for people who need motivation to start going to the gym. The website give a great opportunity for people who are looking to start gym or people who need advise on what to do at the gym  by providing a detailed workout plan for 3 different catogries. These three catorgories are generalised as most popular type of workouts a person would look for, and these consists of a lean workout plan; which is to loss muscle and look more toned and fit, then there''s bulk workout plan; which is for someone looking to gain a lot of muscle, and finally there's the weight loss plan; which is for someone looking to lose fat.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
-
-![Responsice Mockup](https://github.com/mushfique44/workspaces/going-gym/media/multi_screen_media.PNG)
+![Responsice Mockup](https://github.com/mushfique44/main/going-gym/media/multi_screen_media.PNG)
 
 ## Features 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+
 
 ### Existing Features
 
