@@ -6,7 +6,7 @@ These three catorgories are generalised as most popular type of workouts a perso
 
 The website also provides an option for people to sign up a personalised workout plan which will cater more to the individual and their body type.
 
-![Responsice Mockup](https://github.com/mushfique44/main/going-gym/media/multi_screen_media.PNG)
+![Responsice Mockup](https://github.com/mushfique44/going-gym/tree/main/media/multi_screen_media.PNG)
 
 ## Features 
 
@@ -112,5 +112,5 @@ The content idea was inspired by myself but some of the features of the website 
 
 ### Media
 
-- All images where used are license free and were taken from [Vecteezy]{https://www.vecteezy.com/}
+- All images where used are license free and were taken from [Vecteezy](https://www.vecteezy.com/)
 - All the icons were taken from [Font Awesome](https://fontawesome.com/)
