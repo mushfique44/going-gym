@@ -1,72 +1,69 @@
 # Going Gym
 
-The Going Gym website is a landing page for people who need motivation to start going to the gym. The website give a great opportunity for people who are looking to start gym or people who need advise on what to do at the gym  by providing a detailed workout plan for 3 different catogries. These three catorgories are generalised as most popular type of workouts a person would look for, and these consists of a lean workout plan; which is to loss muscle and look more toned and fit, then there''s bulk workout plan; which is for someone looking to gain a lot of muscle, and finally there's the weight loss plan; which is for someone looking to lose fat.
+The Going Gym website is a landing page for people who need motivation to start going to the gym. The website give a great opportunity for people who are looking to start gym or people who need advise on what to do at the gym  by providing a detailed workout plan for 3 different catogries. 
+
+These three catorgories are generalised as most popular type of workouts a person would look for, and these consists of a lean workout plan; which is to loss muscle and look more toned and fit, then there''s bulk workout plan; which is for someone looking to gain a lot of muscle, and finally there's the weight loss plan; which is for someone looking to lose fat.
+
+The website also provides an option for people to sign up a personalised workout plan which will cater more to the individual and their body type.
 
 ![Responsice Mockup](https://github.com/mushfique44/main/going-gym/media/multi_screen_media.PNG)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+There are five sections to this webpage:
 
-
+    The Nav bar 
+    The Hero image
+    The Workout Plans
+    The Sign up section
+    The Footer
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured at the top of the page, the full responsive navigation bar includes links to the Logo, Home, Workout Plans and Sign Up saections
+  - This section will always show no matter what section you are in and will allow the user to jump from section to section.
+  - The Nav Bar is also responsive to different screen sizes and will have a feature for smaller screen such as mobile phones, where the nave bar will be become a responsive drop down feature.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar]()
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing image or the hero image is an image of a gym and consists of a slogan element to the image. 
+  - This section grabs the users into the purpose of the website and motivates with a powerful slogan.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page]()
 
-- __Club Ethos Section__
+- __Workout Plans Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The Workout plans section allows the user to get straight into it and give the users three headings to look at. 
+  - The users will be able to able pick between a Lean workout, a Buk workout and a Loss workout. 
+  - Each plan is hidden and will expand when the user presses or clicks the drop down icon.
+  - And each plan section will have a detailed week based workout plan for the users to look at. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Workout plans]()
 
-- __Meetup Times section__
+- __Sign-Up section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section is for users to sign up to a personalised workout plan, by wflling in a form.
+  - The form will request the users Full name, Email address and what type of personalised workout plan they are looking for. 
+  - This form is set on a dumbell background to give the users motivation when they sign up.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Sign up form]()
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section is for all the social media pages related to the website Going Gym. All the social links will open to new tabs for the users to give ease of access and better navigation.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Footer]()
 
 ### Features Left to Implement
 
-- Another feature idea
+- Another feature idea is to implement these sections into pages and having them be easy to navigate around.
+- To make the week based workout plans to appear in a weekly calander format when the screen sizes are larger, so it makes it more appealing to the user and easier to follow.
+- Have a gallary page with images of users transformations and experiences of using the workout plans.
+- Make the sign up form more detailed so that it request more information by giving a questionare.
 
 ## Testing 
 
