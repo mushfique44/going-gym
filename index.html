@@ -14,30 +14,36 @@
       content="gym, going gym, workouts, get fit, personalised workouts, excersise"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Title of the webpage-->
     <title>Going Gym</title>
   </head>
 
   <body>
     <!--Heading-->
     <header>
+      <!--webpage logo heading with link to the webpage-->
       <a href="index.html">
         <h1 id="logo"><strong>Going Gym</strong></h1>
       </a>
-
+      <!--adding the nav bar drop down icon-->
       <input type="checkbox" id="nav_toggle" name="nav_toggle" />
       <label for="nav_toggle" class="nav_toggle_name">
         <i class="fa-regular fa-square-caret-down"></i>
       </label>
 
+      <!--navigation section-->
       <nav>
         <ul id="nav_bar">
           <li>
-            <a href="#home" id="active">Home</a>
+            <!--Home with link to home section-->
+            <a href="#home">Home</a>
           </li>
           <li>
+            <!--Workiong Plans with link to working section-->
             <a href="#workout">Workout Plans</a>
           </li>
           <li>
+            <!--Sign up with link to signup section-->
             <a href="#signup">Sign Up</a>
           </li>
         </ul>
@@ -46,9 +52,13 @@
 
     <!--Main content-->
     <main>
+      <!--creating home section-->
       <section id="home">
+        <!--heading 2 for the hero img but hidden-->
         <h2 class="hidden_heading">Home</h2>
+        <!--hero image or landing img-->
         <div id="hero_container"></div>
+        <!--slogan to be add to hero section-->
         <div id="slogan">
           <ul>
             <li>Decide.</li>
@@ -58,19 +68,26 @@
         </div>
       </section>
 
+      <!--workout section-->
       <section id="workout">
+        <!--heading for workout section-->
         <div class="title_container">
           <h2><strong>Workout Plans</strong></h2>
         </div>
 
+        <!--lean workout section-->
         <div class="lean_plan">
+          <!--heading for lean workout-->
           <h3><strong>Lean Workout Plan:</strong></h3>
+          <!--add a dropdown icon-->
           <input type="checkbox" id="days_toggle" name="days_toggle" />
           <label for="days_toggle" class="days_toggle_name">
             <i class="fa-solid fa-caret-down"></i>
           </label>
+          <!--lean body image-->
           <div class="body_img"></div>
-
+          <!--lean workout plan content-->
+          <!--listed for days of the week-->
           <div class="days">
             <h4>Monday</h4>
             <p><strong>Full Body Strength Training</strong></p>
@@ -184,6 +201,7 @@
           </div>
         </div>
 
+        <!--same as lean section but for bulk workout-->
         <div class="bulk_plan">
           <h3><strong>Workout Plan:</strong></h3>
           <input type="checkbox" id="days2_toggle" name="days2_toggle" />
@@ -295,6 +313,7 @@
           </div>
         </div>
 
+        <!--same but for losing weight section-->
         <div class="loss_plan">
           <h3><strong>Loss Plan:</strong></h3>
           <input type="checkbox" id="days3_toggle" name="days3_toggle" />
@@ -383,19 +402,25 @@
         </div>
       </section>
 
+      <!--signup section-->
       <section id="signup">
+        <!--heading for section-->
         <div class="title_container">
           <h2><strong>Sign Up</strong></h2>
         </div>
+        <!--form background imag-->
         <div id="form_container"></div>
         <div>
+          <!--form set up-->
           <form
             method="post"
             action="https://formdump.codeinstitute.net/"
             id="signup_form"
           >
+            <!--heading for form-->
             <h3>Sign up for a personalised workout</h3>
             <br />
+            <!--first name section of the form-->
             <label for="f_name">First Name:</label>
             <br />
             <input
@@ -406,6 +431,7 @@
               required
             />
             <br />
+            <!--last name section of the form-->
             <label for="l_name">Last Name:</label>
             <br />
             <input
@@ -416,6 +442,7 @@
               required
             />
             <br />
+            <!--email address section of the form-->
             <label for="email">Email Address:</label>
             <br />
             <input
@@ -426,11 +453,15 @@
               required
             />
             <br />
+            <!--type of workout selector section-->
             <div>
               <br />
+              <!--heading for the options-->
               <h4>Type of workout you are looking for:</h4>
               <br />
+              <!--radio buttons for option to pick from-->
               <div class="radio_buttons">
+                <!--lean workout option-->
                 <div>
                   <label for="lean" class="check">Lean</label>
                   <input
@@ -443,6 +474,7 @@
                     checked
                   />
                 </div>
+                <!--bulk workout option-->
                 <div>
                   <label for="bulk" class="check">Bulk</label>
                   <input
@@ -454,6 +486,7 @@
                     required
                   />
                 </div>
+                <!--losing weight workout option-->
                 <div>
                   <label for="loss" class="check">Weight Loss</label>
                   <input
@@ -468,6 +501,7 @@
               </div>
             </div>
             <br />
+            <!--submit button-->
             <input type="submit" id="submit" value="SUBMIT" />
           </form>
         </div>
@@ -508,7 +542,7 @@
       </ul>
     </footer>
 
-    <!--Font awsome kit-->
+    <!--Font awesome kit-->
     <script
       src="https://kit.fontawesome.com/b3ddc31681.js"
       crossorigin="anonymous"
