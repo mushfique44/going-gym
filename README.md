@@ -8,7 +8,7 @@ The website also provides an option for people to sign up a personalised workout
 
 ![Responsice Mockup](https://github.com/mushfique44/going-gym/tree/main/media/multi_screen_media.PNG)
 
-## Features 
+## Features
 
 There are five sections to this webpage:
 
@@ -27,29 +27,28 @@ There are five sections to this webpage:
   - The Nav Bar is also responsive to different screen sizes and will have a feature for smaller screen such as mobile phones, where the nave bar will be become a responsive drop down feature.
 
 ![Nav Bar](https://github.com/mushfique44/going-gym/tree/main/media/nav_bar.PNG)
-![Nav Bar](https://github.com/mushfique44/going-gym/tree/main/media/nav_bar_mobile.jpg)
+![Nav Bar](https://github.com/mushfique44/going-gym/tree/main/media/nav_bar_mobile.PNG)
 
+- __The Hero image Section__
 
-- __The landing page image__
-
-  - The landing image or the hero image is an image of a gym and consists of a slogan element to the image. 
+  - The hero image or landing page is an image of a gym and consists of a slogan element to the image.
   - This section grabs the users into the purpose of the website and motivates with a powerful slogan.
 
-![Landing Page]()
+![Landing Page](https://github.com/mushfique44/going-gym/tree/main/media/hero_img.PNG)
 
 - __Workout Plans Section__
 
-  - The Workout plans section allows the user to get straight into it and give the users three headings to look at. 
-  - The users will be able to able pick between a Lean workout, a Buk workout and a Loss workout. 
+  - The Workout plans section allows the user to get straight into it and give the users three headings to look at.
+  - The users will be able to able pick between a Lean workout, a Buk workout and a Loss workout.
   - Each plan is hidden and will expand when the user presses or clicks the drop down icon.
-  - And each plan section will have a detailed week based workout plan for the users to look at. 
+  - And each plan section will have a detailed week based workout plan for the users to look at.
 
-![Workout plans]()
+![Workout plans](https://github.com/mushfique44/going-gym/tree/main/media/workout_section.PNG)
 
 - __Sign-Up section__
 
   - This section is for users to sign up to a personalised workout plan, by wflling in a form.
-  - The form will request the users Full name, Email address and what type of personalised workout plan they are looking for. 
+  - The form will request the users Full name, Email address and what type of personalised workout plan they are looking for.
   - This form is set on a dumbell background to give the users motivation when they sign up.
 
 ![Sign up form]()
