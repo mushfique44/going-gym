@@ -288,11 +288,6 @@ input[type="email"] {
     border-radius: 5px;
 }
 
-/**/
-input[type="radio"] {
-    font-weight: bold;
-}
-
 /*Workout section*/
 
 /*default style of the workout section*/
@@ -345,7 +340,6 @@ input[type="radio"] {
     font-family: 'Arial', sans-serif;
     max-width: 600px;
     margin: 20px auto;
-    /* Improved spacing */
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
@@ -355,15 +349,10 @@ input[type="radio"] {
 /* Make the heading stand out more */
 .days h4 {
     color: darkslateblue;
-    /* Heading color */
     background-color: #e0e0e0;
-    /* Background color for heading */
     padding: 10px;
-    /* Padding for heading */
     border-radius: 10px;
-    /* Border radius for heading */
     margin-bottom: 15px;
-    /* Spacing between heading and content */
 }
 
 /* Rest of the styles for the days section */
@@ -437,7 +426,6 @@ input[type="radio"] {
     font-family: 'Arial', sans-serif;
     max-width: 600px;
     margin: 20px auto;
-    /* Improved spacing */
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
@@ -447,26 +435,20 @@ input[type="radio"] {
 /* Make the heading stand out more */
 .days2 h4 {
     color: darkslateblue;
-    /* Heading color */
     background-color: #e0e0e0;
-    /* Background color for heading */
     padding: 10px;
-    /* Padding for heading */
     border-radius: 10px;
-    /* Border radius for heading */
     margin-bottom: 15px;
-    /* Spacing between heading and content */
 }
 
-/* Rest of the styles for the days section */
+/*styling the paragraphs in days2 element*/
 .days2 p {
     color: rgb(40, 40, 40);
     font-weight: bold;
-    /* Make p elements bolder */
     margin-bottom: 15px;
-    /* Add space between p and lists */
 }
 
+/*styling the lists in days2 element*/
 .days2 ul {
     list-style-type: none;
     padding: 0;
@@ -528,36 +510,29 @@ input[type="radio"] {
     font-family: 'Arial', sans-serif;
     max-width: 600px;
     margin: 20px auto;
-    /* Improved spacing */
     background-color: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Make the heading stand out more */
+/*Make the heading stand out more */
 .days3 h4 {
     color: darkslateblue;
-    /* Heading color */
     background-color: #e0e0e0;
-    /* Background color for heading */
     padding: 10px;
-    /* Padding for heading */
     border-radius: 10px;
-    /* Border radius for heading */
     margin-bottom: 15px;
-    /* Spacing between heading and content */
 }
 
-/* Rest of the styles for the days section */
+/*styling the paragraphs in days3 element*/
 .days3 p {
     color: rgb(40, 40, 40);
     font-weight: bold;
-    /* Make p elements bolder */
     margin-bottom: 15px;
-    /* Add space between p and lists */
 }
 
+/*styling the lists in days2 element*/
 .days3 ul {
     list-style-type: none;
     padding: 0;
@@ -583,7 +558,7 @@ input[type="radio"] {
     font-size: 6.25rem;
 }
 
-
+/*inserting a lean body image next to the heading lean workout*/
 .body_img {
     background-image: url(../images/lean_img.jpg);
     position: absolute;
@@ -597,11 +572,7 @@ input[type="radio"] {
     border-radius: 100px;
 }
 
-
-#days_toggle:checked~.body_img {
-    display: none;
-}
-
+/*inserting a bulk body image next to the heading bulkworkout*/
 .body2_img {
     background-image: url(../images/bulk_img.jpg);
     position: absolute;
@@ -615,10 +586,7 @@ input[type="radio"] {
     border-radius: 100px;
 }
 
-#days2_toggle:checked~.body2_img {
-    display: none;
-}
-
+/*inserting a fat body image next to the heading fat workout*/
 .body3_img {
     background-image: url(../images/fat_img.jpg);
     position: absolute;
@@ -632,14 +600,14 @@ input[type="radio"] {
     border-radius: 100px;
 }
 
-#days3_toggle:checked~.body3_img {
+/*making the images disapear when toggled the button for each workout section*/
+#days_toggle:checked~.body_img,
+#days2_toggle:checked~.body2_img,
+#days3_toggle:checked~.body3_img,
+#days2_toggle:checked~.lean_plan .body_img {
     display: none;
 }
 
-
-#days_toggle:checked~.bulk_plan>.body2_img {
-    display: none;
-}
 
 /*footer*/
 
@@ -666,7 +634,7 @@ i {
 }
 
 
-/*for when the width of the screen is larger then 768*/
+/*for when the width of the screen is larger then 768 pixels*/
 @media screen and (min-width: 768px) {
 
     /*new style of nav area*/
@@ -683,58 +651,69 @@ i {
         display: flex;
     }
 
-
+    /*new style of the list in nav bar*/
     #nav_bar>li {
         padding-left: 1rem;
 
     }
 
+    /*hiding the dropdown icon*/
     .nav_toggle_name {
         display: none;
     }
 
+    /*resizing the logo heading*/
     #logo {
         font-size: 200%;
 
     }
 
+    /*adding a margin at the top so main goes under nav bar*/
     main {
         margin-top: 62px;
     }
 
+    /*adding a margin at the top so workout section goes under nav bar and hero image*/
     #workout {
         margin-top: 150px;
     }
 
+    /*resizing height of hero img*/
     #hero_container {
         height: 500px;
     }
 
+    /*resizing height of form img*/
     #form_container {
         height: 775px;
     }
 
+    /*resizing font of slogan*/
     #slogan ul {
         font-size: 3rem;
     }
 
+    /*resizing and centering form*/
     form#signup_form {
         font-size: 1.5rem;
         right: 20%;
         left: 20%;
     }
 
+    /*resizing the button*/
     .radio_buttons {
         font-size: larger;
 
     }
 
+    /*resize the lean img*/
     .body_img {
         height: 28%;
         right: 5%;
         top: 10%;
     }
 
+    /*resize the bulk img*/
     .body2_img {
         height: 28%;
         width: 23%;
@@ -742,6 +721,7 @@ i {
         top: 42%;
     }
 
+    /*resize the fat img*/
     .body3_img {
         height: 28%;
         width: 25%;
@@ -750,33 +730,42 @@ i {
     }
 }
 
+/*for when the width of the screen is larger then 992 pixels*/
 @media screen and (min-width: 992px) {
+
+    /*add a underline when hovering over nav bar*/
     #nav_bar a:hover {
         border-bottom: 1px solid black;
     }
 
+    /*resize hero img*/
     #hero_container {
         height: 750px;
     }
 
+    /*resize form img*/
     #form_container {
         height: 790px;
     }
 
+    /*resize slogan*/
     #slogan ul {
         font-size: 5rem;
     }
 
+    /*move wokout section lower to put under rest*/
     #workout {
         margin-top: 400px;
     }
 
+    /*resize form*/
     form#signup_form {
         font-size: 1.5rem;
         right: 20%;
         left: 20%;
     }
 
+    /*resize submit button*/
     #submit {
         position: absolute;
         left: 20%;
@@ -785,13 +774,17 @@ i {
     }
 }
 
+/*for screens larger then 1200 pixels*/
 @media screen and (min-width: 1200px) {
+
+    /*resize lean img*/
     .body_img {
         height: 28%;
         width: 17%;
         top: 10%;
     }
 
+    /*resize bulk img*/
     .body2_img {
         height: 28%;
         width: 17%;
@@ -799,6 +792,7 @@ i {
         top: 40%;
     }
 
+    /*resize fat img*/
     .body3_img {
         height: 28%;
         width: 17%;
@@ -809,12 +803,15 @@ i {
 }
 
 
-
+/*for screens smaller then 280 pixels*/
 @media screen and (max-width: 280px) {
+
+    /*resize slogan*/
     #slogan ul {
         font-size: 1rem;
     }
 
+    /*resize lean img*/
     .body_img {
         height: 17%;
         width: 20%;
@@ -822,6 +819,7 @@ i {
         top: 26%;
     }
 
+    /*resize bulk*/
     .body2_img {
         height: 17%;
         width: 20%;
@@ -829,6 +827,7 @@ i {
         top: 26%;
     }
 
+    /*resize fat*/
     .body3_img {
         height: 17%;
         width: 20%;
@@ -838,8 +837,10 @@ i {
 
 }
 
-
+/*for screens smaller then 338 pixels*/
 @media screen and (max-width: 338px) {
+
+    /*resize lean img*/
     .body_img {
         height: 18%;
         width: 20%;
@@ -847,6 +848,7 @@ i {
         top: 25%;
     }
 
+    /*resize bulk img*/
     .body2_img {
         height: 17%;
         width: 20%;
@@ -854,6 +856,7 @@ i {
         top: 50%;
     }
 
+    /*resize fat img*/
     .body3_img {
         height: 17%;
         width: 20%;
