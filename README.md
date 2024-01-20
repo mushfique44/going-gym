@@ -26,7 +26,9 @@ There are five sections to this webpage:
   - This section will always show no matter what section you are in and will allow the user to jump from section to section.
   - The Nav Bar is also responsive to different screen sizes and will have a feature for smaller screen such as mobile phones, where the nave bar will be become a responsive drop down feature.
 
-![Nav Bar]()
+![Nav Bar](https://github.com/mushfique44/going-gym/tree/main/media/nav_bar.PNG)
+![Nav Bar](https://github.com/mushfique44/going-gym/tree/main/media/nav_bar_mobile.PNG)
+
 
 - __The landing page image__
 
