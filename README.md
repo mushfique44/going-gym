@@ -6,7 +6,7 @@ These three catorgories are generalised as most popular type of workouts a perso
 
 The website also provides an option for people to sign up a personalised workout plan which will cater more to the individual and their body type.
 
-![Responsice Mockup](https://github.com/mushfique44/going-gym/tree/main/media/multi_screen_media.PNG)
+![Responsice Mockup](https://github.com/mushfique44/going-gym/blob/main/media/multi_screen_media.PNG)
 
 ## Features
 
